@@ -1,0 +1,16 @@
+# Jekyll
+_site
+.sass-cache
+.jekyll-metadata
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Ruby
+.bundle
+Gemfile.lock
+
+# Mac
+.DS_Store
