@@ -202,7 +202,12 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
+    // color: $section-headings-color;
+  }
+
+  h1 {
     color: $section-headings-color;
+    text-align: center;
   }
 
   p {
@@ -382,3 +387,33 @@ a {
   -webkit-clip-path: inset(0 0 50% 0);
   clip-path: inset(0 0 50% 0);
 }
+
+figure {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  img {
+    display: inline-block;
+    width: 100%;
+    border-radius: .3em;
+  }
+  figcaption {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.figure-grid {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 1em 0;
+  figure {
+    width: 15em;
+    margin: 0 .5em .5em 0;
+  }
+}
+
