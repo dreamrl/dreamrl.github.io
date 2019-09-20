@@ -35,11 +35,11 @@ layout: default
 # Action-Conditioned Video Predictions
 
 <center style="margin-bottom: 1em;">
-Top: holdout episode
+Top: holdout episodes
 <span style="display: inline-block; width: 3em;"></span>
-Middle: 45 step prediction (5 context)
+Middle: 45 step predictions (5 context)
 <span style="display: inline-block; width: 3em;"></span>
-Bottom: difference
+Bottom: differences
 </center>
 
 <figure><figcaption>Pendulum Swingup</figcaption><img src="/assets/openloop/pendulum.gif" /></figure>
