@@ -1,5 +1,5 @@
 ---
-title: 'Efficient Visual Control by Latent Imagination'
+title: 'Dream to Control: Learning Behaviors by Latent Imagination'
 layout: default
 ---
 
