@@ -380,6 +380,12 @@ a {
   color: $blockquote-text-color;
 }
 
+.abstract {
+  font-size: 1.2em;
+  padding: 0 4.5em;
+  font-family: 'Droid Serif', Georgia, serif;
+}
+
 .behavior {
   position: relative;
   display: block;
@@ -418,3 +424,16 @@ figure {
   }
 }
 
+.pages {
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  margin: 1em 0;
+  padding-left: 2.1em;
+  img {
+    width: 8em;
+    margin: 0 .5em .5em 0;
+    border: 1px solid #eee;
+    box-shadow: .1em .2em .3em rgba(0,0,0,.2);
+  }
+}

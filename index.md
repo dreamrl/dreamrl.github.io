@@ -3,6 +3,21 @@ title: 'Dream to Control: Learning Behaviors by Latent Imagination'
 layout: default
 ---
 
+# Abstract
+
+<div class="abstract">
+Learned world models summarize an agent’s experience to facilitate learning
+complex behaviors. While learning world models from high-dimensional sensory
+inputs is becoming feasible through deep learning, there are many potential
+ways for deriving behaviors from them. We present Dreamer, a reinforcement
+learning agent that solves long-horizon tasks from images purely by latent
+imagination. We efficiently learn behaviors by propagating analytic gradients
+of learned state values back through trajectories imagined in the compact state
+space of a learned world model. On 20 challenging visual control tasks, Dreamer
+exceeds existing approaches in data-efficiency, computation time, and final
+performance.
+</div>
+
 # Behaviors Learned by Dreamer
 
 <div class="figure-grid">
@@ -51,3 +66,17 @@ Bottom: Differences
 <figure><img src="/assets/pred/fishing-derby.gif" /></figure>
 <figure><img src="/assets/pred/hero.gif" /></figure>
 <figure><img src="/assets/pred/collect.gif" /></figure>
+
+# Read the Paper for Details [[PDF]](https://arxiv.org/pdf/1912.01603.pdf)
+
+<div class="pages">
+<img src="/assets/pages/1.png" />
+<img src="/assets/pages/2.png" />
+<img src="/assets/pages/3.png" />
+<img src="/assets/pages/4.png" />
+<img src="/assets/pages/5.png" />
+<img src="/assets/pages/6.png" />
+<img src="/assets/pages/7.png" />
+<img src="/assets/pages/8.png" />
+<img src="/assets/pages/9.png" />
+</div>
