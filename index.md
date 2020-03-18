@@ -64,7 +64,6 @@ Bottom: Differences
 
 <figure><img src="/assets/pred/quadruped.gif" /></figure>
 <figure><img src="/assets/pred/fishing-derby.gif" /></figure>
-<figure><img src="/assets/pred/hero.gif" /></figure>
 <figure><img src="/assets/pred/collect.gif" /></figure>
 
 # Read the Paper for Details [<a href="https://arxiv.org/pdf/1912.01603.pdf" target="_blank">PDF</a>]
