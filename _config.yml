@@ -1,7 +1,7 @@
-# intro:
-title: 'Dream to Control: Learning Behaviors<br>by Latent Imagination'
-# description:
-# - Anonymous project website
-# - Under submission
-# buttons:
-#   Label: '#anchor'
+title: 'Dream to Control:<br>Learning Behaviors by Latent Imagination'
+description:
+- Danijar Hafner, Timothy Lillicrap, Jimmy Ba, Mohammad Norouzi
+- ICLR 2020 Spotlight
+buttons:
+  Paper PDF: 'https://arxiv.org/pdf/1912.01603.pdf'
+  Source code: 'https://github.com/danijar/dreamer'

@@ -3,7 +3,7 @@ title: 'Dream to Control: Learning Behaviors by Latent Imagination'
 layout: default
 ---
 
-# DeepMind Control Suite with image inputs
+# Behaviors Learned by Dreamer
 
 <div class="figure-grid">
 <figure><figcaption>Cheetah Run</figcaption><img src="/assets/behavior/dmc-cheetah-run.gif"/></figure>
