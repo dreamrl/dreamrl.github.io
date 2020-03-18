@@ -3,5 +3,5 @@ description:
 - Danijar Hafner, Timothy Lillicrap, Jimmy Ba, Mohammad Norouzi
 - ICLR 2020 Spotlight
 buttons:
-  Paper PDF: 'https://arxiv.org/pdf/1912.01603.pdf'
+  Research paper: 'https://arxiv.org/pdf/1912.01603.pdf'
   Source code: 'https://github.com/danijar/dreamer'
