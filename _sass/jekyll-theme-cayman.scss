@@ -399,6 +399,14 @@ body {
   background-position: center;
 }
 
+.project-name {
+  text-shadow: 1px 1px .5em rgba(0, 0, 0, 0.15);
+}
+
+.project-tagline {
+  text-shadow: 1px 1px 5px rgba(0,0,0,.2);
+}
+
 figure {
   display: inline-block;
   width: 100%;
