@@ -169,9 +169,9 @@ a {
   text-align: justify;
   // overflow-x: hidden;
 
-  :first-child {
-    margin-top: 0;
-  }
+  //:first-child {
+  //  margin-top: 0;
+  //}
 
   @include large {
     max-width: 64rem;
