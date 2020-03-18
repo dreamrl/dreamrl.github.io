@@ -384,6 +384,21 @@ a {
 // Custom styles
 ///////////////////////////////////////////////////////////////////////////////
 
+body {
+  background: #fafafa;
+}
+
+.page-header {
+  color: $header-heading-color;
+  text-align: center;
+  //background-color: $header-bg-color;
+  //background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  // background-image: url('/assets/header.gif');
+  background-image: linear-gradient(120deg, #296b8aa8, #126ea594), url(/assets/header.gif);
+  background-size: cover;
+  background-position: center;
+}
+
 figure {
   display: inline-block;
   width: 100%;
