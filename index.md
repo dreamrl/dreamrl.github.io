@@ -3,9 +3,7 @@ title: 'Dream to Control: Learning Behaviors by Latent Imagination'
 layout: default
 ---
 
-# Behaviors Learned by Dreamer
-
-<center><b>DeepMind Control Suite with image inputs</b></center>
+# DeepMind Control Suite with image inputs
 
 <div class="figure-grid">
 <figure><figcaption>Cheetah Run</figcaption><img src="/assets/behavior/dmc-cheetah-run.gif"/></figure>
@@ -22,7 +20,7 @@ layout: default
 <figure><figcaption>Finger Turn Hard</figcaption><img src="/assets/behavior/dmc-finger-turn-hard.gif"/></figure>
 </div>
 
-<center><b>Atari and DMLab with discrete actions</b></center>
+# Atari and DMLab with discrete actions
 
 <div class="figure-grid">
 <figure><figcaption>Fishing Derby</figcaption><img src="/assets/behavior/atari-fishing-derby.gif"/></figure>
@@ -36,22 +34,20 @@ layout: default
 <figure><figcaption>Montezuma</figcaption><img src="/assets/behavior/atari-montezuma.gif"/></figure>
 <figure><figcaption>Pong</figcaption><img src="/assets/behavior/atari-pong.gif"/></figure>
 <figure><figcaption>Tennis</figcaption><img src="/assets/behavior/atari-tennis.gif"/></figure>
-<figure><figcaption>Collect Objects</figcaption><img src="/assets/behavior/atari-collect.gif"/></figure>
+<figure><figcaption>Collect Objects</figcaption><img src="/assets/behavior/dmlab-collect.gif"/></figure>
 </div>
 
-# Video Predictions
+# Multi-Step Video Predictions
 
 <center style="margin-bottom: 1em;">
-Top: holdout episodes
+Top: Holdout Sequences
 <span style="display: inline-block; width: 3em;"></span>
-Middle: 45 step predictions (5 context)
+Middle: Predictions
 <span style="display: inline-block; width: 3em;"></span>
-Bottom: differences
+Bottom: Differences
 </center>
 
-<figure><figcaption>Pendulum Swingup</figcaption><img src="/assets/openloop/pendulum.gif" /></figure>
-<figure><figcaption>Hopper Hop</figcaption><img src="/assets/openloop/hopper.gif" /></figure>
-<figure><figcaption>Quadruped Run</figcaption><img src="/assets/openloop/quadruped.gif" /></figure>
-<figure><figcaption>Boxing</figcaption><img src="/assets/openloop/boxing.gif" /></figure>
-<figure><figcaption>Freeway</figcaption><img src="/assets/openloop/freeway.gif" /></figure>
-<figure><figcaption>Explore Small</figcaption><img src="/assets/openloop/explore.gif" /></figure>
+<figure><img src="/assets/pred/quadruped.gif" /></figure>
+<figure><img src="/assets/pred/fishing-derby.gif" /></figure>
+<figure><img src="/assets/pred/hero.gif" /></figure>
+<figure><img src="/assets/pred/collect.gif" /></figure>
