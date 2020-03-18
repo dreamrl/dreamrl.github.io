@@ -1,6 +1,7 @@
 title: 'Dream to Control:<br>Learning Behaviors by Latent Imagination'
 description:
 - Danijar Hafner, Timothy Lillicrap, Jimmy Ba, Mohammad Norouzi
+- Google Brain, University of Toronto, DeepMind
 - ICLR 2020 Spotlight
 buttons:
   Research paper: 'https://arxiv.org/pdf/1912.01603.pdf'
