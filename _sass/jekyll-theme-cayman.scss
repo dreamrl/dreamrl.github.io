@@ -444,17 +444,17 @@ figure {
 }
 
 .pages {
-  max-width: 45em;
-  margin: 1.5em auto;
-  display: flex;
-  flex-flow: row wrap;
-  &::after {
-    content: "";
-    flex: auto;
-  }
+  position: relative;
+  max-width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-grid;
+  grid-template-columns: repeat(auto-fit, 8em);
+  grid-gap: 1em;
+  margin: 1.5em 0;
   img {
+    display: inline-block;
     width: 8em;
-    margin: .5em;
     border: 1px solid #eee;
     box-shadow: .1em .2em .3em rgba(0,0,0,.2);
   }
