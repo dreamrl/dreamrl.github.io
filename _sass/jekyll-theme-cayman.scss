@@ -380,20 +380,9 @@ a {
   color: $blockquote-text-color;
 }
 
-.abstract {
-  font-size: 1.2em;
-  padding: 0 4.5em;
-  font-family: 'Droid Serif', Georgia, serif;
-}
-
-.behavior {
-  position: relative;
-  display: block;
-  margin-bottom: -8%;
-  width: 100%;
-  -webkit-clip-path: inset(0 0 50% 0);
-  clip-path: inset(0 0 50% 0);
-}
+///////////////////////////////////////////////////////////////////////////////
+// Custom styles
+///////////////////////////////////////////////////////////////////////////////
 
 figure {
   display: inline-block;
@@ -413,27 +402,36 @@ figure {
   }
 }
 
-.figure-grid {
-  display: inline-block;
+.abstract {
+  font-family: 'Droid Serif', Georgia, serif;
+  font-size: 1.2em;
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+.figures {
   text-align: center;
-  width: 100%;
   margin: 1em 0;
   figure {
     width: 10em;
-    margin: 0 .5em .5em 0;
+    margin: .25em;
   }
 }
 
 .pages {
-  display: inline-block;
-  text-align: left;
-  width: 100%;
-  margin: 1em 0;
-  padding-left: 2.1em;
+  max-width: 45em;
+  margin: 1.5em auto;
+  display: flex;
+  flex-flow: row wrap;
+  &::after {
+    content: "";
+    flex: auto;
+  }
   img {
     width: 8em;
-    margin: 0 .5em .5em 0;
+    margin: .5em;
     border: 1px solid #eee;
     box-shadow: .1em .2em .3em rgba(0,0,0,.2);
   }
 }
+

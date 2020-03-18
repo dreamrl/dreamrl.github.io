@@ -20,7 +20,7 @@ performance.
 
 # Behaviors Learned by Dreamer
 
-<div class="figure-grid">
+<div class="figures">
 <figure><figcaption>Cheetah Run</figcaption><img src="/assets/behavior/dmc-cheetah-run.gif"/></figure>
 <figure><figcaption>Hopper Hop</figcaption><img src="/assets/behavior/dmc-hopper-hop.gif"/></figure>
 <figure><figcaption>Walker Run</figcaption><img src="/assets/behavior/dmc-walker-run.gif"/></figure>
@@ -37,7 +37,7 @@ performance.
 
 # Atari and DMLab with discrete actions
 
-<div class="figure-grid">
+<div class="figures">
 <figure><figcaption>Fishing Derby</figcaption><img src="/assets/behavior/atari-fishing-derby.gif"/></figure>
 <figure><figcaption>Ice Hockey</figcaption><img src="/assets/behavior/atari-ice-hockey.gif"/></figure>
 <figure><figcaption>Kung Fu Master</figcaption><img src="/assets/behavior/atari-kungfu-master.gif"/></figure>
@@ -67,7 +67,7 @@ Bottom: Differences
 <figure><img src="/assets/pred/hero.gif" /></figure>
 <figure><img src="/assets/pred/collect.gif" /></figure>
 
-# Read the Paper for Details [[PDF]](https://arxiv.org/pdf/1912.01603.pdf)
+# Read the Paper for Details [<a href="https://arxiv.org/pdf/1912.01603.pdf" target="_blank">PDF</a>]
 
 <div class="pages">
 <img src="/assets/pages/1.png" />
