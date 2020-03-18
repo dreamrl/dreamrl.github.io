@@ -35,7 +35,7 @@ performance.
 <figure><figcaption>Finger Turn Hard</figcaption><img src="/assets/behavior/dmc-finger-turn-hard.gif"/></figure>
 </div>
 
-# Atari and DMLab with discrete actions
+# Atari and DMLab with Discrete Actions
 
 <div class="figures">
 <figure><figcaption>Fishing Derby</figcaption><img src="/assets/behavior/atari-fishing-derby.gif"/></figure>
